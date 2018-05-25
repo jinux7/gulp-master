@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "myfont";
+	src: url('./myfont.eot');
+	src: url('./myfont.eot?#iefix') format('eot'),
+		url('./myfont.woff2') format('woff2'),
+		url('./myfont.woff') format('woff'),
+		url('./myfont.ttf') format('truetype'),
+		url('./myfont.svg#myfont') format('svg');
+}
+
+.icon:before {
+	font-family: "myfont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-1:before {
+	content: "\E001";
+}
+
+.icon-10:before {
+	content: "\E002";
+}
+
+.icon-2:before {
+	content: "\E003";
+}
+
+.icon-3:before {
+	content: "\E004";
+}
+
+.icon-4:before {
+	content: "\E005";
+}
+
+.icon-5:before {
+	content: "\E006";
+}
+
+.icon-6:before {
+	content: "\E007";
+}
+
+.icon-7:before {
+	content: "\E008";
+}
+
+.icon-8:before {
+	content: "\E009";
+}
+
+.icon-9:before {
+	content: "\E00A";
+}
